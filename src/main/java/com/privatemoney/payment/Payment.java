@@ -1,4 +1,4 @@
-package com.privatemoney.operation;
+package com.privatemoney.payment;
 
 import com.privatemoney.category.Category;
 import com.privatemoney.category.SubCategory;
@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 import java.util.Currency;
 import java.util.Date;
 
-public abstract class Operation {
+public class Payment {
     private BigDecimal sum;
     private Category category;
     private SubCategory subCategory;
